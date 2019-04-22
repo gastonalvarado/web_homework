@@ -1,0 +1,55 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #fffdfd;
+}
+
+
+/*--- navigation bar ---*/
+
+.navbar {
+    background: rgb(0, 0, 0);
+    text-align: right
+}
+
+.img {
+    align-content: flex-start
+}
+
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.nav-link:hover {
+    color: #000;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+#home {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    background: rgb(192, 80, 77);
+}
+
+#jumbotext {
+    text-decoration-color: lightgray
+}
+
+#contact {
+    background: #eceaea;
+    text-align: center;
+    vertical-align: -webkit-baseline-middle;
+}
+
+#projectscope {
+    font-size: 25pt
+}
