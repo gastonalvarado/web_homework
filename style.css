@@ -63,24 +63,23 @@ body {
     background-color: #000000;
 }
 
-  nav {
+nav {
     list-style: none;
-    
-  }
-
-  .card-deck {
-    margin: 0 auto; /* Added */
-    float: none; /* Added */
-    margin-bottom: 10px; /* Added */
 }
 
-.jumbotron{
-
-    background-color: rgb(192, 80, 77); 
+.card-deck {
+    margin: 0 auto;
+    /* Added */
+    float: none;
+    /* Added */
+    margin-bottom: 10px;
+    /* Added */
 }
 
-.jumbotron h1{
-    text-decoration-color:lightgray;
-
+.jumbotron {
+    background-color: rgb(192, 80, 77);
 }
 
+.jumbotron h1 {
+    text-decoration-color: lightgray;
+}
