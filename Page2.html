@@ -10,28 +10,36 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
 <body>
 
-    <!-- Navigation -->
-    <div class="container">
-        <nav class="navbar navbar-expand-lg mb-1">
-            <a class="navbar-brand" href="#"><img src="navbar.png" width="300" height="50" class="d-inline-block align-top rounded img-thumbnail img-fluid" alt=""></a>
-            <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="main-navigation">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="Page2.html">Analysis</a></li>
-                    <li class="nav-item"><a class="nav-link" href="Page5.html">Data</a></li>
-                    <li class="nav-item"><a class="nav-link" href="Page4.html">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="Pag3.html">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
+   <!-- Navigation -->
+   <div class="container">
+    <nav class="navbar navbar-expand-lg mb-1">
+        <a class="navbar-brand" href="index.html"><img src="navbar.png" width="300" height="50" class="d-inline-block align-top rounded img-thumbnail img-fluid" alt=""></a>
+        <!-- Add social media icons -->
+        <a href="www.facebook.com" class="fa fa-facebook"></a>
+            <a href="www.twitter.com" class="fa fa-twitter"></a>
+            <a href="www.instagram.com" class="fa fa-instagram"></a>
+            <a href="www.pinterest.com" class="fa fa-pinterest"></a>
+        <!-- Set up button for smaller screens -->
+        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Set up buttons for nav bar-->
+        <div class="collapse navbar-collapse" id="main-navigation">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="Page2.html">Analysis</a></li>
+                <li class="nav-item"><a class="nav-link" href="Page5.html">Data</a></li>
+                <li class="nav-item"><a class="nav-link" href="Page4.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="Pag3.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
 
         <!--card row 1-->
 
@@ -39,15 +47,15 @@
             <div class="card-deck" style="max-width: 1140px;">
                 <div class="card"><img src="Total Reviews by Hotel.png" class="card-img-top" alt="">
                     <div class="card-body">
-                        <h5 class="card-title">Sentiment Analysis</h5>
-                        <p class="card-text">Analysis performed using the top most influential positive-negative words.</p>
+                        <h5 class="card-title">Hotel Analysis</h5>
+                        <p class="card-text">Initia review of the Hotel marketplace in downtown Cleveland.</p>
                     </div>
                 </div>
 
                 <div class="card"><img src="unigram.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Word Cloud</h5>
-                        <p class="card-text">Developed to present the initial analysis of the outlie words in the data set, providing an easy visual of what is most relevant, and that will be confirmed in the rest of the analysis</p>
+                        <h5 class="card-title">Word Analysis - Unigram</h5>
+                        <p class="card-text">The Unigram is a summary of all the word count from the reviews, which helps to understand which words might be the ouliers for further analysis.</p>
                     </div>
                 </div>
 
@@ -58,15 +66,15 @@
             <div class="card-deck" style="max-width: 1140px;">
                 <div class="card"><img src="bigram.png" class="card-img-top" alt="">
                     <div class="card-body">
-                        <h5 class="card-title">Sentiment Analysis</h5>
-                        <p class="card-text">Analysis performed using the top most influential positive-negative words.</p>
+                        <h5 class="card-title">Word Analysis - Bigram</h5>
+                        <p class="card-text">Associating word count in sets of two provides a much better understanding of the intent of each review.</p>
                     </div>
                 </div>
 
                 <div class="card"><img src="trigram.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Word Cloud</h5>
-                        <p class="card-text">Developed to present the initial analysis of the outlie words in the data set, providing an easy visual of what is most relevant, and that will be confirmed in the rest of the analysis</p>
+                        <h5 class="card-title">Word Analysis - Trigram</h5>
+                        <p class="card-text">Associating word count in sets of three allows us to have a better context of the review, and properly associate the results.</p>
                     </div>
                 </div>
 

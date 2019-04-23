@@ -83,3 +83,44 @@ nav {
 .jumbotron h1 {
     text-decoration-color: lightgray;
 }
+
+/* Style social media icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+   
+    color: white;
+  }
+
+   /* Instagram */
+   .fa-instagram {
+    
+    color: white;
+  }
+  
+  /* Pinterest */
+  .fa-pinterest {
+    
+    color: white;
+  }
